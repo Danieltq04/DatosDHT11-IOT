@@ -21,7 +21,7 @@
         En este grafico podemos ver la humedad relativa por cada hora
     <br>
   
-        <li><a href="http://eaiot2021.000webhostapp.com/miPrimerPaginaWeb/formularioGraficoHumedad.html">VOLVER</a></li>
+        <li><a href="https://statusiot.000webhostapp.com/sensores/html/formularioGraficoHumedad.html">VOLVER</a></li>
     </p>
 </figure>
 
