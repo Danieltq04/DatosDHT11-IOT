@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="../style/main.css">
+    <title>TEMPERATURA - Grafico Historico</title>
+</head>
+<body>
+
+    <div class = "container2">    
+        <div class="header">
+            <h1 class="tit">Seleccione los datos para analizar la temperatura</h1>
+        </div>
+        <form action="../php/graficoTempHistorico.php" method="GET">
+            <label>Dispositivo: </label>
+            <input type="text" name="dispositivo"><br>
+            <label>Intervalo: </label>
+            <input type="text" name="intervalo"><br>
+            <label>Mes:</label>
+            <input type="text" name="mes"><br>
+            <label>Dia:</label>
+            <input type="text" name="dia"><br>
+        
+
+            <input type="submit" name="Enviar Datos">
+    </form>
+    <br>
+    <div class="button">
+        <a href="../index.html">Volver</a>
+        
+        
+    </div>
+</div>
+
+<p id="footer">&copy; VyM Ingenieria</p>
+</body>
+</html>

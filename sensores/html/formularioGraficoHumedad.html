@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="../style/main.css">
+   
+
+    <title>HUMEDAD - Grafico Historico</title>
+
+ 
+</head>
+<body>
+    
+    <div class = "container2">    
+        <div class="header">
+            <h1 class="tit">Seleccione los datos para analizar la humedad</h1>
+        </div>
+        <form action="../php/graficoHumedadHistorico.php" method="GET">
+            <label id="disp">Dispositivo: </label>
+            <input type="text" id="disp" name="dispositivo"><br>
+            <label id="int">Intervalo: </label>
+            <input type="text" id="int" name="intervalo"><br>
+            <label id="mes">Mes:</label>
+            <input type="text" id="mes" name="mes"><br>
+            <label id="dia">Dia:</label>
+            <input type="text" id="dia" name="dia"><br>
+            <input type="submit" name="Enviar Datos">
+    </form>
+    <br>
+    <div class="button">
+        <a href="../index.html">Volver</a>
+        
+        
+    </div>
+</div>
+<p id="footer">&copy; VyM Ingenieria</p>
+</body>
+</html>
